@@ -4,58 +4,58 @@
 <head>
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>Contact Me</title>
+    <title>contact responsive</title>
     <link rel="stylesheet" type="text/css" href="assets/css/reset.css">
     <link rel="stylesheet" type="text/css" href="assets/css/style.css">
 </head>
 
 <body>
-
     <header>
-        <section id="bluebox">
-             <h1>Jennifer Kim</h1>
-        </section>
-
-        <nav>
-            <ul class="navbar">
-                <li><a href="index.html">About</a></li>
-                
-                <li><a href="portfolio.html">Portfolio</a></li>
-                
-                <li><a href="contact.html">Contact</a></li>
-            </ul>
-        </nav>
-    </header>
-
-    <div class="container">
-        <section id="form">
-            <h2 class="padding"> Contact </h2>
-            <hr class="top_line">
-            <form action="">
-                <fieldset>
-                    <legend></legend>
-                    <label for="name">Name</label>
-                    <br>
-                    <input type="text" id="name" name="fullname" placeholder="John Smith">
-                    <br>
-                    <label for="email">Email</label>
-                    <br>
-                    <input type="email" id="email" name="fullemail" placeholder="example@gmail.com" required>
-                    <br>
-                    <label for="message">Message</label>
-                    <br>
-                    <input type="textarea" id="message">
-                    <br>
-                    <input type="submit">
-                </fieldset>
-            </form>
-        </section>
-    </div>
-
-    <footer>
-        <div id="footer-content">
-            Copyright &copy;
+    <div class="wrapper text-center">
+            <div id="name" class="solve-gap-issue">Jennifer Kim</div> 
+            <nav>
+            <a href="index.html" class="gborder">About</a>
+            <a href="portfolio.html" class="gborder">Portfolio</a>
+            <a href="contact.html">Contact</a>
+            </nav>
         </div>
+    </header>
+    
+    <div class="wrapper">
+    <section id="contact">
+        <h1>Contact</h1>
+        <hr class="top_line">
+        <form>
+            <div id="contact-name">
+                <label for="name">Name</label>
+                <br>
+                <input type="text" id="name-contact" name="user_name" class="mytext">
+            </div>
+
+            <div id="email">
+                <label for="mail">Email</label>
+                <br>
+                <input type="email" id="mail" name="user_email" class="mytext">
+            </div>
+
+            <div id="message">
+                <label for="msg">Message</label>
+                <br>
+                <textarea id="msg" name="user_message" class="mymsg"></textarea>
+            </div>
+
+            <div class="button">
+                <button type="submit">Submit</button>
+            </div>
+        </form>
+
+    </section>
+    </div>   
+    
+    <footer>
+    <div id="footer-content">
+        Copyright &copy;
+    </div>
     </footer>
 
 </body>

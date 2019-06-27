@@ -4,80 +4,66 @@
 <head>
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>Portfolio</title>
+    <title>Portfolio responsive</title>
     <link rel="stylesheet" type="text/css" href="assets/css/reset.css">
     <link rel="stylesheet" type="text/css" href="assets/css/style.css">
 </head>
 
 <body>
-
     <header>
-        <section id="bluebox">
-             <h1>Jennifer Kim</h1>
-        </section>
-
-        <nav>
-            <ul class="navbar">
-                <li><a href="index.html">About</a></li>
-   
-                <li><a href="portfolio.html">Portfolio</a></li>
-
-                <li><a href="contact.html">Contact</a></li>
-            </ul>
-        </nav>
-    </header>
-
-
-    <div class="container">
-
-        <section id="portfolio">
-            <h2 class="padding">Portfolio</h2>
-            <hr class="top_line">
-
-            <div class="game1">
-                <a href= "https://jk1138.github.io/unit-4-game/"><img src="assets/images/crystal.png" height="196 " width="264" alt="screenshot of crystal collector game">
-                <article>
-                    <h3>Crystal Collector Game</h3>
-                </article></a>
-            </div>
-
-            <div class="game2">
-                <a href="https://jk1138.github.io/Psychic-Game/"><img src="assets/images/psychic.png" height="196"width="264" alt="screenshot of psychic game">
-                <article>
-                    <h3>Psychic Game</h3>
-                </article></a>
-            </div>
-
-            <div class="game3">
-                <a href="https://jk1138.github.io/TriviaGame/"><img src="assets/images/trivia.png" height="196" width="264" alt="screenshot of trivia game">
-                <article>
-                    <h3>Trivia Game</h3>
-                </article></a>
-            </div>
-
-            <div class="game4">
-                <a href="..."><img src="assets/images/pinkcover.jpg" height="196" width="264" alt="screenshot of ...">
-                <article>
-                <h3>Filler</h3>
-                </article></a>
-            </div>
-
-
-            <div class="game5">
-               <a href= "..."><img src="assets/images/quora.jpg" height="196" width="264" alt="screenshot of ...">
-                <article>
-                    <h3>Filler</h3>
-                </article></a>
-            </div>
-
-        </section>
-
-    </div>
-
-    <footer>
-        <div id="footer-content">
-            Copyright &copy;
+    <div class="wrapper text-center">
+            <div id="name" class="solve-gap-issue">Jennifer Kim</div> 
+            <nav>
+            <a href="index.html" class="gborder">About</a>
+            <a href="portfolio.html" class="gborder">Portfolio</a>
+            <a href="contact.html">Contact</a>
+            </nav>
         </div>
+    </header>
+    
+    <div class="wrapper">
+    <section id="portfolio">
+        <h1>Portfolio</h1>
+    <div id="content-portfolio" class="img-center">
+
+    <div class="wrap-project">    
+        <div id= "game1">
+            <a href= "https://jk1138.github.io/unit-4-game/"><img src="assets/images/crystal.png" alt="screenshot of crystal collector game" class="photo-size">
+            <p>Crystal Collector Game</p></a>
+        </div>
+
+        <div id= "game2">
+            <a href="https://jk1138.github.io/Psychic-Game/"><img src="assets/images/psychic.png" alt="screenshot of psychic game" class="photo-size">
+            <p>Psychic Game</p></a>
+        </div>
+    </div>    
+                
+    <div class="wrap-project">
+        <div id= "game3">
+            <a href="https://jk1138.github.io/TriviaGame/"><img src="assets/images/trivia.png" alt="screenshot of trivia game" class="photo-size">
+            <p>Trivia Game</p></a> 
+        </div>
+                
+        <div id= "game4">
+            <a href="..."><img src="assets/images/pinkcover.jpg" alt="screenshot of ....." class="photo-size">
+            <p>Filler</p></a>
+        </div>
+    </div>  
+            
+    <div class="wrap-project">
+        <div id= "game5">
+            <a href="..."><img src="assets/images/quora.jpg" alt="screenshot of ....." class="photo-size">
+            <p>Filler</p></a>
+        </div>
+    </div>
+    </div>
+   </section> 
+</div>
+    
+    <footer>
+    <div id="footer-content">
+        Copyright &copy;
+    </div>
     </footer>
 
 </body>
