@@ -30,7 +30,7 @@ li {
     padding-right:18px;
 }
 
-/** Backgorund **/
+/** Background **/
 body {
     background-image: url("../images/cloudy-day.png");
     width: 100%;
@@ -61,7 +61,7 @@ header {
 
 /** ABOUT ME **/
 #main_summary {
-    background-color: #ffffff;
+    background-color:white;
     width: 960px;
     height: 600px;
     margin-bottom: 40px;
@@ -227,45 +227,40 @@ h3 {
     
 }
 
-.room{
-    background-image: url("../images/room.jpg");
-    background-size: 264px 196px;
+.game1{
+    background-image: url("../images/crystal.png");
     margin-left: 50px;
     float: left;
     position: initial;
     z-index: 2;
 }
 
-.makeup {
-    background-image: url("../images/glossier.jpg");
-    background-size: 264px 196px;
+.game2{
+    background-image: url("../images/psychic.png");
     float: left;
     position: relative;
     left: 40px;
     z-index: 2;
 }
 
-.orangecover {
-    background-image: url("../images/orangecover.jpg");
-    background-size: 264px 196px;
+.game3{
+    background-image: url("../images/trivia.png");
     margin-left: 50px;
     position: absolute;
     top: 550px;
     z-index: 2;
 }
 
-.pinkcover {
+.game4{
     background-image: url("../images/pinkcover.jpg");
-    background-size: 264px 196px;
     position: absolute;
     top: 550px;
     right: 585px;
     z-index: 2;
 }
 
-.quora {
+.game5{
     background-image: url("../images/quora.jpg");
-    background-size: 264px 196px;
     margin-left: 50px;
     position: absolute;
     top: 850px;
@@ -285,51 +280,17 @@ footer {
     border-top: 10px solid #4aaaa5;
     clear: both;
 }
-/*********************************** MEDIA QUERIES  ***********************************/
-/* DESKTOP */
-@media (max-width: 980px) {
-    header {position: static;
-    }
 
-/* TABLET */
-@media (max-width: 768px) {
-    header { 
-        position: static;
-    }
-    #bio-image {
-        width: 100px;
-    }   
+@media screen and (max-width: 768px) {
+#main_summary{
+    width:100%;
+    height:100%;
 }
-/* PHONE */
- @media screen and (min-width: 640px) {
-        #bio-image {
-        width: 200px;
-        }
+.navbar{
+    background-color: white;
+    width: 100%;
+    
 
-        #bluebox {
-            width: 100%;
-            height: 25px;
-            font-size: 24px;
-            line-height: 50px;
-            position: static;
-            float: left;
-            margin-left: 0;
-            text-align: center;
-          }
+}
 
-       .navbar {
-         text-align: center;
-         padding-top: 0;
-       }
-      
-      #main_summary,
-      #form,
-      #portfolio {
-        width: 50px;
-        height: 50px;
-        margin-left: auto;
-        margin-right: auto;
-        margin-bottom: 40px;
-        margin-top: 40px;
-        float: inherit;
-      }
+}
